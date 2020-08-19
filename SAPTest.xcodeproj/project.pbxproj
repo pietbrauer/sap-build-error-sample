@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		238AE19A24ED0345008B04B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238AE19924ED0345008B04B1 /* AppDelegate.swift */; };
+		238AE19C24ED0345008B04B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238AE19B24ED0345008B04B1 /* SceneDelegate.swift */; };
+		238AE19E24ED0345008B04B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238AE19D24ED0345008B04B1 /* ViewController.swift */; };
+		238AE1A124ED0345008B04B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238AE19F24ED0345008B04B1 /* Main.storyboard */; };
+		238AE1A324ED0349008B04B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 238AE1A224ED0349008B04B1 /* Assets.xcassets */; };
+		238AE1A624ED0349008B04B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238AE1A424ED0349008B04B1 /* LaunchScreen.storyboard */; };
+		238AE1B624ED035D008B04B1 /* SAPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 238AE1B424ED035D008B04B1 /* SAPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238AE1B924ED035D008B04B1 /* SAPClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238AE1B224ED035D008B04B1 /* SAPClient.framework */; };
+		238AE1BA24ED035D008B04B1 /* SAPClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 238AE1B224ED035D008B04B1 /* SAPClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		238AE1C124ED0462008B04B1 /* SAPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238AE1C024ED0462008B04B1 /* SAPClient.swift */; };
+		A96D34A9B7BA13EA246BD56D /* libPods-SAPClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95106C8EBEEEDCD954336CBF /* libPods-SAPClient.a */; };
+		BFA4478C165FD8418BFA7DD1 /* libPods-SAPTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 017C6197728F0618DF81A6C5 /* libPods-SAPTest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		238AE1B724ED035D008B04B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 238AE18E24ED0345008B04B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 238AE1B124ED035D008B04B1;
+			remoteInfo = SAPClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		238AE1BE24ED035D008B04B1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				238AE1BA24ED035D008B04B1 /* SAPClient.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		017C6197728F0618DF81A6C5 /* libPods-SAPTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SAPTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10A8D2D41BDF9A4A348AB11F /* Pods-SAPClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPClient.release.xcconfig"; path = "Target Support Files/Pods-SAPClient/Pods-SAPClient.release.xcconfig"; sourceTree = "<group>"; };
+		238AE19624ED0345008B04B1 /* SAPTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAPTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		238AE19924ED0345008B04B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		238AE19B24ED0345008B04B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		238AE19D24ED0345008B04B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		238AE1A024ED0345008B04B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		238AE1A224ED0349008B04B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		238AE1A524ED0349008B04B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		238AE1A724ED0349008B04B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		238AE1B224ED035D008B04B1 /* SAPClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAPClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		238AE1B424ED035D008B04B1 /* SAPClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAPClient.h; sourceTree = "<group>"; };
+		238AE1B524ED035D008B04B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		238AE1BF24ED03F8008B04B1 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		238AE1C024ED0462008B04B1 /* SAPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAPClient.swift; sourceTree = "<group>"; };
+		2568601DEE326B2716EE865F /* Pods-SAPTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPTest.release.xcconfig"; path = "Target Support Files/Pods-SAPTest/Pods-SAPTest.release.xcconfig"; sourceTree = "<group>"; };
+		2D1EFC2814676A82FB476698 /* Pods-SAPClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPClient.debug.xcconfig"; path = "Target Support Files/Pods-SAPClient/Pods-SAPClient.debug.xcconfig"; sourceTree = "<group>"; };
+		95106C8EBEEEDCD954336CBF /* libPods-SAPClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SAPClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4AE182FD71958F50EDAE1DC /* Pods-SAPTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPTest.debug.xcconfig"; path = "Target Support Files/Pods-SAPTest/Pods-SAPTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		238AE19324ED0345008B04B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238AE1B924ED035D008B04B1 /* SAPClient.framework in Frameworks */,
+				BFA4478C165FD8418BFA7DD1 /* libPods-SAPTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		238AE1AF24ED035D008B04B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96D34A9B7BA13EA246BD56D /* libPods-SAPClient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		238AE18D24ED0345008B04B1 = {
+			isa = PBXGroup;
+			children = (
+				238AE19824ED0345008B04B1 /* SAPTest */,
+				238AE1B324ED035D008B04B1 /* SAPClient */,
+				238AE19724ED0345008B04B1 /* Products */,
+				D8AA721830EEF6468060CCE1 /* Pods */,
+				A0B2DA19C62383731026420A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		238AE19724ED0345008B04B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				238AE19624ED0345008B04B1 /* SAPTest.app */,
+				238AE1B224ED035D008B04B1 /* SAPClient.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		238AE19824ED0345008B04B1 /* SAPTest */ = {
+			isa = PBXGroup;
+			children = (
+				238AE19924ED0345008B04B1 /* AppDelegate.swift */,
+				238AE19B24ED0345008B04B1 /* SceneDelegate.swift */,
+				238AE19D24ED0345008B04B1 /* ViewController.swift */,
+				238AE19F24ED0345008B04B1 /* Main.storyboard */,
+				238AE1A224ED0349008B04B1 /* Assets.xcassets */,
+				238AE1A424ED0349008B04B1 /* LaunchScreen.storyboard */,
+				238AE1BF24ED03F8008B04B1 /* Config.xcconfig */,
+				238AE1A724ED0349008B04B1 /* Info.plist */,
+			);
+			path = SAPTest;
+			sourceTree = "<group>";
+		};
+		238AE1B324ED035D008B04B1 /* SAPClient */ = {
+			isa = PBXGroup;
+			children = (
+				238AE1B424ED035D008B04B1 /* SAPClient.h */,
+				238AE1B524ED035D008B04B1 /* Info.plist */,
+				238AE1C024ED0462008B04B1 /* SAPClient.swift */,
+			);
+			path = SAPClient;
+			sourceTree = "<group>";
+		};
+		A0B2DA19C62383731026420A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95106C8EBEEEDCD954336CBF /* libPods-SAPClient.a */,
+				017C6197728F0618DF81A6C5 /* libPods-SAPTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8AA721830EEF6468060CCE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D1EFC2814676A82FB476698 /* Pods-SAPClient.debug.xcconfig */,
+				10A8D2D41BDF9A4A348AB11F /* Pods-SAPClient.release.xcconfig */,
+				B4AE182FD71958F50EDAE1DC /* Pods-SAPTest.debug.xcconfig */,
+				2568601DEE326B2716EE865F /* Pods-SAPTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		238AE1AD24ED035D008B04B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238AE1B624ED035D008B04B1 /* SAPClient.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		238AE19524ED0345008B04B1 /* SAPTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 238AE1AA24ED0349008B04B1 /* Build configuration list for PBXNativeTarget "SAPTest" */;
+			buildPhases = (
+				FA9A768AB5C0DA0923EAFF33 /* [CP] Check Pods Manifest.lock */,
+				A96703E88C31E98369A76FE7 /* [CP] Prepare Artifacts */,
+				238AE19224ED0345008B04B1 /* Sources */,
+				238AE19324ED0345008B04B1 /* Frameworks */,
+				238AE19424ED0345008B04B1 /* Resources */,
+				238AE1BE24ED035D008B04B1 /* Embed Frameworks */,
+				B360E625AA0F675FD2519325 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				238AE1B824ED035D008B04B1 /* PBXTargetDependency */,
+			);
+			name = SAPTest;
+			productName = SAPTest;
+			productReference = 238AE19624ED0345008B04B1 /* SAPTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		238AE1B124ED035D008B04B1 /* SAPClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 238AE1BB24ED035D008B04B1 /* Build configuration list for PBXNativeTarget "SAPClient" */;
+			buildPhases = (
+				A086BC888DC7831404BE531E /* [CP] Check Pods Manifest.lock */,
+				238AE1AD24ED035D008B04B1 /* Headers */,
+				238AE1AE24ED035D008B04B1 /* Sources */,
+				238AE1AF24ED035D008B04B1 /* Frameworks */,
+				238AE1B024ED035D008B04B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAPClient;
+			productName = SAPClient;
+			productReference = 238AE1B224ED035D008B04B1 /* SAPClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		238AE18E24ED0345008B04B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Piet Brauer";
+				TargetAttributes = {
+					238AE19524ED0345008B04B1 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					238AE1B124ED035D008B04B1 = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
+					};
+				};
+			};
+			buildConfigurationList = 238AE19124ED0345008B04B1 /* Build configuration list for PBXProject "SAPTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 238AE18D24ED0345008B04B1;
+			productRefGroup = 238AE19724ED0345008B04B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				238AE19524ED0345008B04B1 /* SAPTest */,
+				238AE1B124ED035D008B04B1 /* SAPClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		238AE19424ED0345008B04B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238AE1A624ED0349008B04B1 /* LaunchScreen.storyboard in Resources */,
+				238AE1A324ED0349008B04B1 /* Assets.xcassets in Resources */,
+				238AE1A124ED0345008B04B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		238AE1B024ED035D008B04B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A086BC888DC7831404BE531E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SAPClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A96703E88C31E98369A76FE7 /* [CP] Prepare Artifacts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Prepare Artifacts";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SAPTest/Pods-SAPTest-artifacts.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B360E625AA0F675FD2519325 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SAPTest/Pods-SAPTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA9A768AB5C0DA0923EAFF33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SAPTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		238AE19224ED0345008B04B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238AE19E24ED0345008B04B1 /* ViewController.swift in Sources */,
+				238AE19A24ED0345008B04B1 /* AppDelegate.swift in Sources */,
+				238AE19C24ED0345008B04B1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		238AE1AE24ED035D008B04B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238AE1C124ED0462008B04B1 /* SAPClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		238AE1B824ED035D008B04B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 238AE1B124ED035D008B04B1 /* SAPClient */;
+			targetProxy = 238AE1B724ED035D008B04B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		238AE19F24ED0345008B04B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				238AE1A024ED0345008B04B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		238AE1A424ED0349008B04B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				238AE1A524ED0349008B04B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		238AE1A824ED0349008B04B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		238AE1A924ED0349008B04B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		238AE1AB24ED0349008B04B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238AE1BF24ED03F8008B04B1 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NPZ2HXWU8;
+				INFOPLIST_FILE = SAPTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mhp.pietbrauer.SAPTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		238AE1AC24ED0349008B04B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238AE1BF24ED03F8008B04B1 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NPZ2HXWU8;
+				INFOPLIST_FILE = SAPTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mhp.pietbrauer.SAPTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		238AE1BC24ED035D008B04B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238AE1BF24ED03F8008B04B1 /* Config.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3NPZ2HXWU8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SAPClient/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mhp.pietbrauer.SAPClient;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		238AE1BD24ED035D008B04B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238AE1BF24ED03F8008B04B1 /* Config.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3NPZ2HXWU8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SAPClient/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mhp.pietbrauer.SAPClient;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		238AE19124ED0345008B04B1 /* Build configuration list for PBXProject "SAPTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238AE1A824ED0349008B04B1 /* Debug */,
+				238AE1A924ED0349008B04B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		238AE1AA24ED0349008B04B1 /* Build configuration list for PBXNativeTarget "SAPTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238AE1AB24ED0349008B04B1 /* Debug */,
+				238AE1AC24ED0349008B04B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		238AE1BB24ED035D008B04B1 /* Build configuration list for PBXNativeTarget "SAPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238AE1BC24ED035D008B04B1 /* Debug */,
+				238AE1BD24ED035D008B04B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 238AE18E24ED0345008B04B1 /* Project object */;
+}

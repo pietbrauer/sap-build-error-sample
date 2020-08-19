@@ -1,0 +1,37 @@
+PODS:
+  - SAPCommon (5.1.1)
+  - SAPFiori (5.1.1):
+    - SAPCommon (= 5.1.1)
+  - SAPFioriFlows (5.1.1):
+    - SAPCommon (= 5.1.1)
+    - SAPFiori (= 5.1.1)
+    - SAPFoundation (= 5.1.1)
+  - SAPFoundation (5.1.1):
+    - SAPCommon (= 5.1.1)
+  - SAPOData (5.1.1):
+    - SAPCommon (= 5.1.1)
+    - SAPFoundation (= 5.1.1)
+
+DEPENDENCIES:
+  - SAPFiori (= 5.1.1)
+  - SAPFioriFlows (= 5.1.1)
+  - SAPOData (= 5.1.1)
+
+SPEC REPOS:
+  https://github.com/SAP-samples/cloud-sdk-ios-specs:
+    - SAPCommon
+    - SAPFiori
+    - SAPFioriFlows
+    - SAPFoundation
+    - SAPOData
+
+SPEC CHECKSUMS:
+  SAPCommon: 0878e2c5fedb0f7ad365bdee1fe4de6b04cf287c
+  SAPFiori: aa13b3cbd9133672d739abd7d901a733789ad400
+  SAPFioriFlows: 2f976c79bf9eaa1f38ff7205a60bd33bcf2af35e
+  SAPFoundation: 0576f2e39e0d85f447523ea11bd5fc187e695519
+  SAPOData: b7bcd8e6d294e7ef1b829da8252c31ce1fbb0691
+
+PODFILE CHECKSUM: 61ece2a54ead3d4126866ef86718479528cf90e9
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,14 @@
+//
+//  Config.xcconfig
+//  SAPTest
+//
+//  Created by Piet Brauer on 19.08.20.
+//  Copyright © 2020 Piet Brauer. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "../Pods/Target Support Files/Pods-SAPClient/Pods-SAPClient.debug.xcconfig"
+
+CUSTOM_SETTING = 0
